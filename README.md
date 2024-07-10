@@ -22,6 +22,10 @@ The script adopts the first version of the publicly available parameterized [Dee
     1. Generate the inputs and outputs of the deep learning model.
     2. Build, train, and test the deep learning model.
     3. Process the deep learning outputs and generate the performance results.
-4. To get the output of the base Model, Run the file named `Fig12_generator.m` and modify the line 49 replace with the code "[Rate_DL,Rate_OPT]=Main_fn_2(L,My_ar(rr),Mz_ar(rr),M_bar,K_DL,Pt,kbeams,Training_Size);" in MATLAB and the script will execute the base code.
+4. To get the output of the base Model, do the following tasks:
+    1. Open the file Fig12_generator.m in MATLAB.
+    2. Locate line 49 in the script.
+    3. Replace the existing code on line 49 with the following:```[Rate_DL, Rate_OPT] = Main_fn_2(L, My_ar(rr), Mz_ar(rr), M_bar, K_DL, Pt, kbeams, Training_Size);```
+    4. Save the changes to Fig12_generator.m and run the modified Fig12_generator.m script in MATLAB.
  
 The code was tested on MATLAB R2023b.
