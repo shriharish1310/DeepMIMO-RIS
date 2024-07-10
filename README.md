@@ -1,4 +1,5 @@
-# Deep Learning Enhanced RIS Configuration for Urban Scenario
+# DeepMIMO-RIS
+
 This is a MATLAB code package related to the following article: 
 
 Ramana Srivats, Shri Harish, Aravindan SM, P Kasthuri, P Prakash[Deep Learning Enhanced RIS Configuration for Urban Scenario]
@@ -17,11 +18,14 @@ The script adopts the first version of the publicly available parameterized [Dee
 **To reproduce the results, please follow these steps:**
 1. Download all the files of this project. The `RayTracing Scenarios` folder has been kept empty due to storage constraints.
 2. Download the ['O1_28'](https://deepmimo.net/scenarios/o1-scenario/) scenario which is used in this project and extract the files to the `RayTracing Scenarios` folder.
-3. To get the output of the model used in this project (AlexNet Model) for documentation refer to (https://pytorch.org/vision/main/models/alexnet), Run the file name `Fig12_generator.m` in MATLAB, make sure to include all the folders and subfolders in the source directory to the path and the script will sequentially execute the following tasks:
+3. To get the output of the model used in this project (AlexNet Model) for documentation refer to [AlexNet Documentation](https://pytorch.org/vision/main/models/alexnet), Run the file name `Fig12_generator.m` in MATLAB, make sure to include all the folders and subfolders in the source directory to the path and the script will sequentially execute the following tasks:
     1. Generate the inputs and outputs of the deep learning model.
     2. Build, train, and test the deep learning model.
     3. Process the deep learning outputs and generate the performance results.
-4. To get the output of the base Model, Run the file named `Fig12_generator.m` and modify the line 49 replace with the code "[Rate_DL,Rate_OPT]=Main_fn_2(L,My_ar(rr),Mz_ar(rr),M_bar,K_DL,Pt,kbeams,Training_Size);" in MATLAB and the script will execute the base code.
+4. To get the output of the base Model, do the following tasks:
+    1. Open the file Fig12_generator.m in MATLAB.
+    2. Locate line 49 in the script.
+    3. Replace the existing code on line 49 with the following:```[Rate_DL, Rate_OPT] = Main_fn_2(L, My_ar(rr), Mz_ar(rr), M_bar, K_DL, Pt, kbeams, Training_Size);```
+    4. Save the changes to Fig12_generator.m and run the modified Fig12_generator.m script in MATLAB.
  
-The code was tested on MATLAB R2023b."# DeepMIMO-RIS" 
-"# DeepMIMO-RIS" 
+The code was tested on MATLAB R2023b.
