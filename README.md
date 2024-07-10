@@ -18,7 +18,7 @@ The script adopts the first version of the publicly available parameterized [Dee
 **To reproduce the results, please follow these steps:**
 1. Download all the files of this project. The `RayTracing Scenarios` folder has been kept empty due to storage constraints.
 2. Download the ['O1_28'](https://deepmimo.net/scenarios/o1-scenario/) scenario which is used in this project and extract the files to the `RayTracing Scenarios` folder.
-3. To get the output of the model used in this project (AlexNet Model) for documentation refer to (https://pytorch.org/vision/main/models/alexnet), Run the file name `Fig12_generator.m` in MATLAB, make sure to include all the folders and subfolders in the source directory to the path and the script will sequentially execute the following tasks:
+3. To get the output of the model used in this project (AlexNet Model) for documentation refer to [AlexNet Documentation](https://pytorch.org/vision/main/models/alexnet), Run the file name `Fig12_generator.m` in MATLAB, make sure to include all the folders and subfolders in the source directory to the path and the script will sequentially execute the following tasks:
     1. Generate the inputs and outputs of the deep learning model.
     2. Build, train, and test the deep learning model.
     3. Process the deep learning outputs and generate the performance results.
