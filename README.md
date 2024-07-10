@@ -1,5 +1,5 @@
 # DeepMIMO-RIS
-# Deep Learning Enhanced RIS Configuration for Urban Scenario
+
 This is a MATLAB code package related to the following article: 
 
 Ramana Srivats, Shri Harish, Aravindan SM, P Kasthuri, P Prakash[Deep Learning Enhanced RIS Configuration for Urban Scenario]
